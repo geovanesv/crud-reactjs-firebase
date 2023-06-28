@@ -1,0 +1,77 @@
+#root {
+  
+  margin: 0 auto;
+ 
+}
+
+/* Flex-Box */
+.Dashcontainer{
+  width:70%; 
+	margin:30px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+}
+
+.btnbtnprimary{
+	display: flex;
+	flex-direction: column row;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	width: 300px;
+	height: 120px;
+	border: 0px solid #ffffff;
+	background: linear-gradient(to right, #0069D9, #5500b6);
+	margin: 15px;
+	border-radius: 10px;
+	padding: 3px;
+	box-shadow: 3px 3px 6px #00000056;
+}
+.btnbtnprimary:hover{
+  -moz-transform: scale(1.1);
+	transform: scale(1.1);
+	background: #ffffff;
+	color: #fff;
+}
+
+.box{
+  margin: auto;
+  height: 35vh;
+}
+
+.btnCancelar{
+  margin-top: -65.6px;
+  margin-left: 90px;
+  width: 8vw;
+}
+
+.btnCancelarEdit{
+  margin-top: -65.6px;
+  margin-left: 120px;
+  width: 8vw;
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
